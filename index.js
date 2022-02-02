@@ -1,1 +1,1 @@
-//Jack of all cardsss
+//Jack of all cards
