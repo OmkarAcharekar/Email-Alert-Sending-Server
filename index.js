@@ -34,15 +34,4 @@ class Game {
         }
     }
 
-    toggleScene(scene) {
-        if (this.scene === this.scenes[scene]) {
-            return;
-        }
-        Object.keys(this.scenes).map(key => {
-            this.scenes[key].hidden();
-        });
-        this.scene && this.scene.uninstall();
-        this.scene = this.scenes[scene];
-        this.scene.show();
-        this.scene.setup();
-    }
+
