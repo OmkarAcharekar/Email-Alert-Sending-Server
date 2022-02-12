@@ -46,3 +46,19 @@ class Game {
         this.scene.show();
         this.scene.setup();
     }
+
+    start() {
+        this.toggleScene('start');
+    }
+
+    play() {
+        this.toggleScene('play');
+    }
+
+    over() {
+        this.toggleScene('over');
+    }
+
+    rank() {
+        this.toggleScene('rank');
+    }
