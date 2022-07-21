@@ -1,4 +1,4 @@
-module github.com/lao-tseu-is-alive/go-cloud-mail
+module github.com/omkaracharekar/go-cloud-mail
 
 go 1.18
 
