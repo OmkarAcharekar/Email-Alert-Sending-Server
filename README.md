@@ -1,1 +1,1 @@
-# Jack
+# Email Alert Sending Server
